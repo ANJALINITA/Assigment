@@ -1,6 +1,7 @@
 import "./Card.css";
 import { FaCircle } from "react-icons/fa";
 import UserProfile from "../profile/UserProfile";
+import { CgArrowDown } from "react-icons/cg";
 const Card = ({ ticket, user, icon, statusIcon, statusColor, bgColor }) => {
   const userIntials = user?.name
     .split(" ")
