@@ -1,6 +1,6 @@
 import "./UserProfile.css";
 
-const profileuser = ({ intials, available, bgColor }) => {
+const Profileuser = ({ intials, available, bgColor }) => {
   return (
     <div className="user">
       <div className="icon" style={{ backgroundColor: bgColor }}>
@@ -11,4 +11,4 @@ const profileuser = ({ intials, available, bgColor }) => {
   );
 };
 
-export default profileuser;
+export default Profileuser;

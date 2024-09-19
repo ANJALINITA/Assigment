@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar.jsx";
 import Board from "./components/dashboard/DashBoard.jsx";
 import { priorities, status } from "./Utils/Utils.js";
 function App() {
@@ -21,6 +21,7 @@ function App() {
   useEffect(() => {
     fetchData();
   }, []);
+  // Fetch data from the API
   const fetchData = async () => {
     try {
       const res = await fetch(
@@ -34,6 +35,7 @@ function App() {
     }
   };
   return (
+    // Implemented the App component
     <div className="App">
       <Navbar
         group={group}
