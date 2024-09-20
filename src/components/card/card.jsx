@@ -1,4 +1,4 @@
-import "./Card.css";
+import "./card.css";
 import { FaCircle } from "react-icons/fa";
 import UserProfile from "../profile/UserProfile";
 import { CgArrowDown } from "react-icons/cg";

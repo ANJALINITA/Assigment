@@ -1,11 +1,11 @@
-import "./DashBoard.css";
+import "./dashboard.css";
 import { IoMdAdd } from "react-icons/io";
 import { SlOptions } from "react-icons/sl";
 // import Card from "../card/Card";
 import UserIcon from "../profile/UserProfile";
 import { priorities, statusIcons } from "../../Utils/Utils";
 import { getRandomColor, generateIntials } from "../../Utils/Utils";
-import Card from "../card/Card";
+import Card from "../card/card";
 
 const DashBoard = (props) => {
   const { tickets, users, group, level, userId, order, data } = props;
