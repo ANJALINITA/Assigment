@@ -1,9 +1,10 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-
+import Board from "./components/dashboard/DashBoard.jsx";
 import { priorities, status } from "./Utils/Utils.js";
-import Navbar from "./components/navbar/navbar.jsx";
+import Navbar from "./components/navbar/Navbar.jsx";
+// import Navbar from "./components/navbar/Navbar.jsx";
 function App() {
   const [tickets, setTickets] = useState([]);
   const [users, setUsers] = useState([]);

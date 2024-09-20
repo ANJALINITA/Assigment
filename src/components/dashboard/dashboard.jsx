@@ -5,7 +5,7 @@ import { SlOptions } from "react-icons/sl";
 import UserIcon from "../profile/UserProfile";
 import { priorities, statusIcons } from "../../Utils/Utils";
 import { getRandomColor, generateIntials } from "../../Utils/Utils";
-import Card from "../card/card";
+import Card from "../card/Card";
 
 const DashBoard = (props) => {
   const { tickets, users, group, level, userId, order, data } = props;
